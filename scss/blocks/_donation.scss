@@ -1,0 +1,43 @@
+.donation{
+    width: 100%;
+    height: auto;
+    background-image: url(../../image/donation-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px 0px;
+    padding: 100px 0;
+    margin-bottom: 100px;
+    &_top{
+        display: flex;
+        align-items: center;
+        margin-bottom: 50px;
+        padding-left: 50px;
+        box-sizing: border-box;
+        h2{
+            color: #C5E1E5;
+        }
+        a{
+            text-decoration: none;
+            color: #0D444D;
+            font-size: 16px;
+            padding: 10px 25px;
+            background-color: #C5E1E5;
+            border-radius: 20px;
+            margin-left: 700px;
+        }
+    }
+    &_main{
+        display: flex;
+        &_content{
+            width: 30%;
+            margin: 0 auto;
+            text-align: center;
+            img{
+                background-color: #fff;
+                border-radius: 50%;
+                padding: 20px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}

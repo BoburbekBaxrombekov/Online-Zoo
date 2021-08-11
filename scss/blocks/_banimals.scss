@@ -1,0 +1,21 @@
+.banimals{
+    margin: 100px 0;
+    &_top{
+        h3{
+            font-weight: 100;
+            color: #0D444D;
+        }
+    }
+    &_block{
+        display: flex;
+        margin-top: 50px;
+        a{
+            text-decoration: none;
+            color: #2D2D2D;
+            margin: 0 auto;
+        }
+        &_box{
+            text-align: center;
+        }
+    }
+}

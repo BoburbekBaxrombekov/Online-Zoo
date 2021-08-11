@@ -1,0 +1,26 @@
+
+.working-container{
+    h2{
+        color: #0D444D;
+        margin-left: -60px;
+    }
+}
+.working_blocks{
+    display: flex;
+}
+.working_inner_block{
+    width: 30%;
+    margin: 70px auto;
+    text-align: center;
+    img{
+        background-color: #fff;
+        padding: 15px;
+        border-radius: 50%;
+        width: 70px;
+        margin-bottom: 10px;
+    }
+    p{
+        font-size: 14px;
+        color: #0D444D;
+    }
+}

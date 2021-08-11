@@ -1,0 +1,94 @@
+.animals{
+    width: 100%;
+    margin-bottom: 100px;
+    &_topTitle{
+        display: flex;
+        justify-content: space-between;
+        a{
+            margin-top: -5px;
+            size: 42px;
+            text-decoration: none;
+            color: #19707D;
+            background-color: transparent;
+            padding: 10px 30px;
+            border-radius: 30px;
+            border: 1px solid #19707D;
+            img{
+                padding-top: 0px;
+                margin-bottom: -3px;
+            }
+            
+        }
+    }
+    .animals_block_row{
+        &1{
+            display: flex;
+            margin-top: 50px;
+            .animals_block{
+                background-color: #fff;
+                border-radius: 10px;
+                width: 32%;
+                box-sizing: border-box;
+                margin: 0 auto;
+                &Top{
+                    border-bottom: 3px solid #ddd;
+                    width: 100%;
+                    text-align: center;
+                    padding: 20px;
+                    img{
+                        width: 200px;
+                    }
+                }
+                &Bottom{
+                    padding: 20px;
+                    display: flex;
+                    &_text{
+                        width: 80%;
+                    }
+                    &_icon{
+                        width: 20%;
+                        img{
+                            padding-top: 10px;
+                            padding-left: 25px;
+                        }
+                    }
+                }
+            }
+        }
+        &2{
+            display: flex;
+            margin-top: 20px;
+            .animals_block{
+                background-color: #fff;
+                border-radius: 10px;
+                width: 32%;
+                box-sizing: border-box;
+                margin: 0 auto;
+                &Top{
+                    border-bottom: 3px solid #ddd;
+                    width: 100%;
+                    text-align: center;
+                    padding: 20px;
+                    img{
+                        width: 200px;
+                    }
+                }
+                &Bottom{
+                    padding: 20px;
+                    display: flex;
+                    &_text{
+                        width: 80%;
+                    }
+                    &_icon{
+                        width: 20%;
+                        img{
+                            padding-top: 10px;
+                            padding-left: 25px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}

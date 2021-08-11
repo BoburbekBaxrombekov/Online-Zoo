@@ -1,0 +1,32 @@
+.footer{
+    background-color:#2A8086;
+    padding: 7px 0;
+    z-index: 1;
+    .container{
+        display: flex;
+    }
+    &_logo{
+        width: 10%;
+    }
+    &_menu{
+        width: 70%;
+        justify-content: center;
+        align-items: center;
+        &_wrapper{
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            height: 100%;
+        }
+        &_item{
+            list-style: none;
+            margin: 0 20px;
+            a{
+                text-decoration: none;
+                font-size: 16px;
+                color: #fff;
+                font-family: 'Roboto Mono', monospace;
+            }    
+        }
+    }
+}
